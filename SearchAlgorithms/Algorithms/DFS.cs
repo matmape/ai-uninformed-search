@@ -4,7 +4,7 @@ using SearchAlgorithms.Models;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class DepthFirstSearch<T> : SearchAlgo<T> where T : IComparable
+    public class DepthFirstSearch<T> : SearchAlgorithms<T> where T : IComparable
     {
         Node<T> _goalNode, _startNode;
         public DepthFirstSearch(Node<T> goalNode, Node<T> startNode) : base(goalNode, startNode)

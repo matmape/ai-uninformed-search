@@ -4,7 +4,7 @@ using SearchAlgorithms.Models;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class IterativeDeepingSearch<T> : SearchAlgo<T> where T :  IComparable
+    public class IterativeDeepingSearch<T> : SearchAlgorithms<T> where T :  IComparable
     {
         Node<T> _goalNode, _startNode;
         private int _limit;

@@ -7,7 +7,7 @@ using SearchAlgorithms.Models;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class BidirectionalSearch<T> : SearchAlgo<T> where T : IComparable
+    public class BidirectionalSearch<T> : SearchAlgorithms<T> where T : IComparable
     {
         Node<T> _goalNode, _startNode;
         public BidirectionalSearch(Node<T> goalNode, Node<T> startNode) : base(goalNode, startNode)

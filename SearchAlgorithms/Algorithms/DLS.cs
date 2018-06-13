@@ -5,7 +5,7 @@ using SearchAlgorithms.Models;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class DepthLimitedSearch<T> : SearchAlgo<T> where T : IComparable
+    public class DepthLimitedSearch<T> : SearchAlgorithms<T> where T : IComparable
     {
         Node<T> _goalNode, _startNode;
         private int _limit, depth;

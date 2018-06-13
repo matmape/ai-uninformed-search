@@ -4,7 +4,7 @@ using SearchAlgorithms.Models;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class UniformCostSearch<T> : SearchAlgo<T> where T : IComparable
+    public class UniformCostSearch<T> : SearchAlgorithms<T> where T : IComparable
     {
         Node<T> _goalNode, _startNode;
         public UniformCostSearch(Node<T> goalNode, Node<T> startNode) : base(goalNode, startNode)
@@ -41,8 +41,7 @@ namespace SearchAlgorithms.Algorithms
                             visitedNodes.Add(currentNode);
                         break;
                     }
-                    var children = currentNode.Children;
-                    //var children = currentNode.Children();
+                    var children = currentNode.Children; 
                     if (children == null || children.Count <= 0) continue;
                     foreach (var child in children)
                     {

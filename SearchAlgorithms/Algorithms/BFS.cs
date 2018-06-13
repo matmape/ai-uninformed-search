@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SearchAlgorithms.Algorithms
 {
-    public class BreadthFirstSearch<T> : SearchAlgo<T> where T :  IComparable
+    public class BreadthFirstSearch<T> : SearchAlgorithms<T> where T :  IComparable
     {
         Node<T> _goalNode, _startNode;
         public BreadthFirstSearch(Node<T> goalNode, Node<T> startNode) : base(goalNode, startNode)

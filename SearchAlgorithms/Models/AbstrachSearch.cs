@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace SearchAlgorithms.Models
 {
-    public abstract class SearchAlgo<T> where T : IComparable
+    public abstract class SearchAlgorithms<T> where T : IComparable
     {
         Node<T> _goalNode, _startNode;
 
-        protected SearchAlgo(Node<T> goalNode, Node<T> startNode)
+        protected SearchAlgorithms(Node<T> goalNode, Node<T> startNode)
         {
             _goalNode = goalNode;
             _startNode = startNode;

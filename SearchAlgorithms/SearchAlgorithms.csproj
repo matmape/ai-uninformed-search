@@ -59,18 +59,7 @@
     <Compile Include="Models\TreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TermProject\AStarNQueen.cs" />
-    <Compile Include="TermProject\IWeightedGraph.cs" />
-    <Compile Include="TermProject\AStarSearch.cs" />
-    <Compile Include="TermProject\BoundedArray.cs" />
-    <Compile Include="TermProject\EightQueens.cs" />
-    <Compile Include="TermProject\EightQueensProblem.cs" />
-    <Compile Include="TermProject\Location.cs" />
-    <Compile Include="TermProject\NQueen.cs" />
-    <Compile Include="TermProject\NQueen1.cs" />
-    <Compile Include="TermProject\NQueen2.cs" />
     <Compile Include="Models\PriorityQueue.cs" />
-    <Compile Include="TermProject\SquareGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
